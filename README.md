@@ -10,7 +10,7 @@ The PalindromeDescendant method checks if a number or its "descendants" are pali
 * Check if the string representation of the number is a palindrome, using the following criteria:
   * Split the number string into two halves.
   * Compare the first half to the reverse of the second half.
-  * If both are equal, then the number is a palindrome
+  * If both are equal, then the number is a palindrome.
 * If the string representation of the number is not a palindrome:
   * If the number string has more than 2 characters, create its descendant by summing pairs of adjacent digits.
   * Otherwise, the method should return false.
