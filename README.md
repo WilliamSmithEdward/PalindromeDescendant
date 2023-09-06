@@ -1,5 +1,5 @@
 # PalindromeDescendant
-The PalindromeDescendant method looks at a number. It checks if the number or its "descendants" are palindromic. A palindromic number is one that reads the same forwards and backwards, like 121 or 1221. 
+The PalindromeDescendant method checks if a number or its "descendants" are palindromic. A palindromic number is one that reads the same forwards and backwards, like 121 or 1221. 
 
 * If the number has more than two digits, the method creates its "descendant". This is done by adding pairs of digits next to each other. For example, 233 becomes 56 because 2+3 is 5 and 3+3 is 6.
 * If the number has only two digits, the method checks if both digits are the same.
