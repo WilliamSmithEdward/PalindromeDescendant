@@ -13,6 +13,7 @@ The PalindromeDescendant method checks if a number or its "descendants" are pali
   * If both are equal, then the number is a palindrome
 * If the string representation of the number is not a palindrome:
   * If the number string has more than 2 characters, create its descendant by summing pairs of adjacent digits.
+  * Otherwise, the method should return false.
 * If the number string has 2 characters, check if both characters are the same.
 
 ## Returns:
